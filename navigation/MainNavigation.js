@@ -8,8 +8,6 @@ import Message from "../screens/Message/Message";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import ProfileTabTitle from "../components/ProfileTabTitile/ProflileTabTitle.js";
 import ProfileTabContent from "../components/ProfileTabContent/ProfileTabContent.js";
-import { horizontalScale } from '../assets/styles/scaling.js';
-
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
