@@ -3,8 +3,6 @@ import { SafeAreaView, ScrollView, Image, View, Text } from "react-native";
 import globalStyle from "../../assets/styles/globalStyle";
 import style from "./style";
 import { ProfileTabNavigation } from "../../navigation/MainNavigation";
-import { ProfileTabView } from "../../navigation/MainNavigation";
-
 
 const Profile = ({navigation})=>{
 

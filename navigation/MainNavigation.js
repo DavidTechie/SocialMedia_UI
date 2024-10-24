@@ -8,6 +8,7 @@ import Message from "../screens/Message/Message";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import ProfileTabTitle from "../components/ProfileTabTitile/ProflileTabTitle.js";
 import ProfileTabContent from "../components/ProfileTabContent/ProfileTabContent.js";
+import { horizontalScale } from '../assets/styles/scaling.js';
 
 
 const Stack = createStackNavigator();
@@ -35,7 +36,10 @@ export const ProfileTabNavigation = () =>{
 
 const MainMenuNavigation = () =>{
     return(
-        <Drawer.Navigator screenOptions={{header: ()=> null,headerShown:false}} 
+        <Drawer.Navigator screenOptions={{header: ()=> null,
+          headerShown:false,
+         
+        }} 
         initialRouteName={Routes.Home}>
             <Drawer.Screen name={Routes.Home} component ={Home} />
             <Drawer.Screen name={Routes.Profile} component ={Profile} />

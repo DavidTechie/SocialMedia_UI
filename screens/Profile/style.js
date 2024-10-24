@@ -23,7 +23,8 @@ const style = StyleSheet.create({
         marginTop: verticalScale(20),
         textAlign:'center',
         fontWeight:'600',
-        fontSize: scaleFontSize(20)
+        fontSize: scaleFontSize(20),
+        color:'#022150'
     },
     statAmount:{
         color:'#022150',
